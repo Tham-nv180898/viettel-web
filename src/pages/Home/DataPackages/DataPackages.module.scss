@@ -1,0 +1,143 @@
+.packages-wrapper {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.packages-wrapper-red-theme {
+  display: flex;
+  background-color: rgb(178, 36, 49);
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.packages-wrapper-inner {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  max-width: 1065px;
+  padding: 0 15px 0 15px;
+  width: 100%;
+}
+.packages-title {
+  display: flex;
+  align-items: center;
+  height: 96px;
+}
+
+.packages-title-link {
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #ee0033;
+  &::before {
+    content: '';
+    border-left: 5px solid #c50000;
+    padding-right: 10px;
+  }
+}
+
+.packages-title-link-red-theme {
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #ffffff;
+  &::before {
+    content: '';
+    border-left: 5px solid#ffffff;
+    padding-right: 10px;
+  }
+}
+
+.packages-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.data-package {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px 10px 20px;
+  width: 246px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  .registration-action {
+    color: #fff;
+    background: #ee0033;
+    margin-bottom: 10px;
+    border: transparent;
+    border-radius: 6px;
+    min-height: 2.5em;
+    width: 100%;
+  }
+
+  .detail-info {
+    padding: 0 10px;
+    font-size: 1.2rem;
+    height: 35px;
+    border: 1px solid #ee0033;
+    border-radius: 6px;
+    min-width: auto;
+    background-color: transparent;
+    color: #ee0033;
+  }
+
+  .hot-sale-icon {
+    opacity: 1;
+    position: absolute;
+    line-height: 32px;
+    transition: opacity 1s;
+    max-width: 75px;
+    max-height: 37px;
+    top: 0%;
+    right: 0%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.package-name {
+  display: block;
+  width: 100%;
+  padding: 10px 0 24px;
+  border-bottom: 1px solid #eeeeee;
+  text-decoration: none;
+  color: #576c8a;
+}
+
+.package-info {
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.package-price {
+  color: #e03;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.package-capacity {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.capacity-value {
+  font-weight: boder;
+  color: #576c8a;
+}
+
+.syntax-content {
+  color: #e03;
+  font-weight: bolder;
+}

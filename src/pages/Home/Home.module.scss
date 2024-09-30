@@ -1,0 +1,41 @@
+.banner {
+  display: block;
+  margin-top: 90px;
+  padding-top: 28.5%;
+  background: url('../../assets/images/dang-ky-3g-4g-viettel-goi-cuoc-hot-nhat.jpg') top center / cover no-repeat;
+}
+
+.content-wrapper {
+  display: flex;
+  padding: 23px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note {
+  display: inline-block;
+  text-align: center;
+  max-width: 1080px;
+  border: 2px dashed red;
+  border-radius: 10px;
+  width: 100%;
+  color: red;
+  padding: 10px;
+}
+
+.packages-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.informations-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1065px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
